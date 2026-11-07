@@ -1,0 +1,55 @@
+---
+config:
+  gantt:
+    titleTopMargin: 30
+    topPadding: 50
+    gridLineStartPadding: 30
+    leftPadding: 140
+    rightPadding: 40
+    barHeight: 20
+    barGap: 4
+    fontSize: 12
+    sectionFontSize: 13
+    numberSectionStyles: 2
+    topAxis: true
+    useWidth: 180
+---
+gantt
+    title Projekt DŁOŃ - harmonogram (05.11.2026 - 28.01.2027)
+    dateFormat YYYY-MM-DD
+    axisFormat %d.%m
+    tickInterval 1week
+    weekday thursday
+    todayMarker off
+
+    section Przygotowanie
+    Wybór komponentów i projekt PCB      :crit, t1, 2026-11-05, 7d
+    Zamówienie i dostawa PCB                    :crit, t2, 2026-11-12, 14d
+    Zamówienie i dostawa komponentów      :crit, t3, 2026-11-12, 7d
+
+    section Rękawica
+    Odczyt IMU i filtracja                     :t4, 2026-11-19, 14d
+    Wektor 2D                                  :t8, 2026-12-03, 7d
+    Projekt i wykonanie mocowania              :t9, 2026-12-10, 14d
+
+    section Robot
+    Sterowanie silników         :crit, t5, 2026-11-19, 7d
+    Montaż robota                                :crit, t6, 2026-11-26, 7d
+    Sterowanie na podstawie wektora             :crit, t10, 2026-12-03, 14d
+
+    section Łączność
+    Łączność radiowa                     :t7, 2026-11-19, 14d
+
+    section Realizacja końcowa
+    Pełna integracja rękawicy z robotem   :crit, t11, 2026-12-17, 14d
+    Testy i strojenie                     :crit, t12, 2026-12-31, 14d
+    Dokumentacja końcowa                  :crit, t13, 2027-01-14, 7d
+
+    section Kamienie milowe
+    M1 Projekt gotowy                                :milestone, m1, 2026-11-11, 0d
+    M2 Zebrane komponenty                                 :milestone, m2, 2026-11-26, 0d
+    M3 Rękawica i łączność gotowe                    :milestone, m3, 2026-12-10, 0d
+    M4 Robot gotowy                                  :milestone, m4, 2026-12-17, 0d
+    M5 System zintegrowany                           :milestone, m5, 2026-12-31, 0d
+    M6 Testy zakończone                              :milestone, m6, 2027-01-14, 0d
+    M7 Oddanie projektu                              :milestone, m7, 2027-01-28, 0d

@@ -1,0 +1,134 @@
+(footprint "DV24V10F5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 9.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c67ef7f-65e0-48fe-86a4-0272de17800a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DV24V10F5"
+		(at 0 11.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af70845b-4724-471d-b930-ac6109f827c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c666dbd-75cb-4de8-80a0-9bc1ec3c32a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bbd0474-a857-4612-8ecf-df98f13a1d19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.35 -8.9)
+		(end 6.35 8.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a7e0511-7ef9-4289-b1f2-67737ace3186")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf87ea25-b71b-44b9-af75-ab27e50fd192")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd6e2361-3450-4c7e-a309-991a77dd17cf")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.54 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "56b5793a-14bd-4d9e-b599-d73ed95bf9fa")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "457cc1ae-bd6b-4041-8f2b-768a40a6ab1f")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54889acc-4664-40b0-9f8f-93f8df942845")
+	)
+	(pad "6" thru_hole circle
+		(at -5.08 7.62)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f2e1ba3-ec35-4359-818c-ad948fd2f385")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/Polulu_D24V10Fx/pololu-1a-step-down-voltage-regulator-d24v10fx.step"
+		(offset
+			(xyz -6.35 -8.89 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

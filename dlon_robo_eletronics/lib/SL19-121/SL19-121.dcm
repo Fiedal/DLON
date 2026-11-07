@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SL19-121
+D Switch: slide; Pos: 2; SPDT; 3A/250VAC; 6A/28VDC; ON-ON; THT; SL19
+K
+F https://www.tme.eu/en/details/sl19121/slide-switches/canal-electronic/sl19-121/
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "NUCLEO-F446RE") (type "KiCad") (uri "${KIPRJMOD}/lib/NUCLEO-F446RE/NUCLEO-F446RE.kicad_sym") (options "") (descr ""))
+	(lib (name "KAmod-TB6612FNG") (type "KiCad") (uri "${KIPRJMOD}/lib/KAmod_TB6612FNG") (options "") (descr ""))
+)

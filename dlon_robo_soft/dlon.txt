@@ -1,0 +1,96 @@
+Configuration	dlon
+STM32CubeMX 	6.18.1
+Date	11/05/2026
+MCU	STM32F446RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA0-WKUP
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	GPIO_Output	
+9	PC1	GPIO_Output	AIN2_BRD
+14	PA0-WKUP	TIM2_CH1	PWM1
+15	PA1	TIM2_CH2	PWM2
+20	PA4	GPIO_Output	AIN1_BRD
+26	PB0	GPIO_Output	STBY_BRD
+34	PB13	SPI2_SCK	SPI_SCK
+35	PB14	SPI2_MISO	SPI_MISO
+36	PB15	SPI2_MOSI	SPI_MOSI
+46	PA13	SYS_JTMS-SWDIO	TMS
+49	PA14	SYS_JTCK-SWCLK	TCK
+51	PC10	GPIO_EXTI10	IT_RADIO
+52	PC11	GPIO_Output	BIN2_BRD
+55	PB3	SYS_JTDO-SWO	SWO
+56	PB4	GPIO_Output	CE_RADIO
+57	PB5	GPIO_Output	CSN_RADIO
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH1	TIM2_CH1	PA0-WKUP
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	GPIO_Output	
+9	PC1	GPIO_Output	AIN2_BRD
+14	PA0-WKUP	TIM2_CH1	PWM1
+15	PA1	TIM2_CH2	PWM2
+20	PA4	GPIO_Output	AIN1_BRD
+26	PB0	GPIO_Output	STBY_BRD
+34	PB13	SPI2_SCK	SPI_SCK
+35	PB14	SPI2_MISO	SPI_MISO
+36	PB15	SPI2_MOSI	SPI_MOSI
+46	PA13	SYS_JTMS-SWDIO	TMS
+49	PA14	SYS_JTCK-SWCLK	TCK
+51	PC10	GPIO_EXTI10	IT_RADIO
+52	PC11	GPIO_Output	BIN2_BRD
+55	PB3	SYS_JTDO-SWO	SWO
+56	PB4	GPIO_Output	CE_RADIO
+57	PB5	GPIO_Output	CSN_RADIO
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : dlon
+Project Folder : /home/feedal/Projects/dlon/dlon_robo_soft
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.3
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : No
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

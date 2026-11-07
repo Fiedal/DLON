@@ -1,0 +1,11 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NUCLEO-F446RE") (type "KiCad") (uri "${KIPRJMOD}/lib/NUCLEO-F446RE") (options "") (descr ""))
+	(lib (name "KAmod-TB6612FNG") (type "KiCad") (uri "${KIPRJMOD}/lib/KAmod_TB6612FNG") (options "") (descr ""))
+	(lib (name "Polulu-D24V10F5") (type "KiCad") (uri "${KIPRJMOD}/lib/Polulu_D24V10Fx") (options "") (descr ""))
+	(lib (name "Polulu_D24V5Fx_local_2") (type "KiCad") (uri "${KIPRJMOD}/lib/Polulu_D24V5Fx.pretty") (options "") (descr ""))
+	(lib (name "D24V5Fx") (type "KiCad") (uri "${KIPRJMOD}/lib/Polulu_D24V5Fx/D24V5Fx.pretty") (options "") (descr ""))
+	(lib (name "Polulu_D24V5Fx_local") (type "KiCad") (uri "${KIPRJMOD}/lib/Polulu_D24V5Fx.pretty") (options "") (descr ""))
+	(lib (name "FC681465P") (type "KiCad") (uri "${KIPRJMOD}/lib/FC681465P.pretty") (options "") (descr ""))
+	(lib (name "SL19-121") (type "KiCad") (uri "${KIPRJMOD}/lib/SL19-121.pretty") (options "") (descr ""))
+)
