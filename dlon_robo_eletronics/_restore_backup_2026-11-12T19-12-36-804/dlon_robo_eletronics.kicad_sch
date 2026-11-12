@@ -1,0 +1,328 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2236f27e-3472-481b-bf3a-99e6c8d76001")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 162.56 106.68) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097a508c-0f5c-4948-851d-e47dd6029289")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b91de89-acdd-49e4-bdc9-244989f08ff6")
+	)
+	(bus
+		(pts
+			(xy 162.56 102.87) (xy 171.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446874de-1778-4f02-a563-e28c60eeb653")
+	)
+	(bus
+		(pts
+			(xy 171.45 106.68) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bade74-c154-4df4-91a4-b9b645a27679")
+	)
+	(bus
+		(pts
+			(xy 171.45 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fdbfbc-5cbb-4ce0-8513-d45ab3d6dd8b")
+	)
+	(bus
+		(pts
+			(xy 171.45 102.87) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca3ba73-8eed-497b-9ae3-a1816e79e6a1")
+	)
+	(bus
+		(pts
+			(xy 171.45 118.11) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0542d8-f43b-4667-8ad8-f3186bba0625")
+	)
+	(sheet
+		(at 101.6 88.9)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2dc38966-b005-4ea9-a8c9-c31bf716e867")
+		(property "Sheetname" "Power"
+			(at 101.6 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_sch.kicad_sch"
+			(at 101.6 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_Nucleo" input
+			(at 124.46 107.95 0)
+			(uuid "672b2053-7c2f-4bf3-b8e1-19dc0e0d8639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "dlon_robo_eletronics"
+				(path "/2236f27e-3472-481b-bf3a-99e6c8d76001"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 114.3)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56ed4c1a-1771-4f36-9f45-22b75defe8fc")
+		(property "Sheetname" "nRF"
+			(at 177.8 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf.kicad_sch"
+			(at 177.8 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{NrfBus}" input
+			(at 177.8 118.11 180)
+			(uuid "b053b8cf-6fcd-4e49-bd35-159e7c04be74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dlon_robo_eletronics"
+				(path "/2236f27e-3472-481b-bf3a-99e6c8d76001"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a04d12a-a019-441c-b515-ba0571db6325")
+		(property "Sheetname" "Nucleo-F446RE"
+			(at 139.7 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nucleo-F446RE.kicad_sch"
+			(at 139.7 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MotorsDrvBus}" input
+			(at 162.56 102.87 0)
+			(uuid "532b233e-d569-44fc-9965-ed0fc4b5ba29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{NrfBus}" input
+			(at 162.56 106.68 0)
+			(uuid "41bf1900-7da5-4db1-b4e3-459ac91b99d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_Nucleo" input
+			(at 139.7 107.95 180)
+			(uuid "0669f2c0-d30e-4226-b4b6-39769b1e3ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dlon_robo_eletronics"
+				(path "/2236f27e-3472-481b-bf3a-99e6c8d76001"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 72.39)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d84eb6df-ffa6-44b8-8df3-8a50dc352b7e")
+		(property "Sheetname" "Motors_Driver"
+			(at 177.8 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motors_driver.kicad_sch"
+			(at 177.8 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MotorsDrvBus}" input
+			(at 177.8 91.44 180)
+			(uuid "42094298-daea-4ec6-9521-5580b2dca1a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dlon_robo_eletronics"
+				(path "/2236f27e-3472-481b-bf3a-99e6c8d76001"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
