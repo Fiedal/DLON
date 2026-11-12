@@ -8,4 +8,5 @@
 	(lib (name "Polulu_D24V5Fx_local") (type "KiCad") (uri "${KIPRJMOD}/lib/Polulu_D24V5Fx.pretty") (options "") (descr ""))
 	(lib (name "FC681465P") (type "KiCad") (uri "${KIPRJMOD}/lib/FC681465P.pretty") (options "") (descr ""))
 	(lib (name "SL19-121") (type "KiCad") (uri "${KIPRJMOD}/lib/SL19-121.pretty") (options "") (descr ""))
+	(lib (name "imgs") (type "KiCad") (uri "${KIPRJMOD}/imgs/imgs.pretty") (options "") (descr ""))
 )
